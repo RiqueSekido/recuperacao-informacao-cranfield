@@ -6,24 +6,22 @@ com o modelo probabilístico BM25 usando a coleção Cranfield.
 
 ## Integrantes
 
-- Nome: preencher antes da entrega
-- E-mail: preencher antes da entrega
+- Henrique Yukio Sekido, NUSP 14614564
+- Didrick Chancel Lignina Ndombi, NUSP 14822368
 
-## Tecnologias utilizadas
+## Versão da linguagem e principais bibliotecas utilizadas
 
 - Python 3.9.0
-- `ir-datasets` para carregar a coleção Cranfield
-- `nltk` para stemming com Porter Stemmer
+- ir-datasets
+- nltk
 
-## Base de dados
+## Identificação e forma de obtenção da base de dados
 
 Foi utilizada a coleção **Cranfield**, acessada pela biblioteca `ir-datasets`.
 A coleção contém documentos científicos, consultas e julgamentos de relevância
-(qrels). Os qrels são usados somente para avaliação dos rankings.
+(qrels).
 
-Na primeira execução, a biblioteca baixa e armazena os dados localmente.
-
-## Instalação
+## Instruções para instalação das dependências e execução
 
 Com o ambiente virtual ativado, instale as dependências com:
 
