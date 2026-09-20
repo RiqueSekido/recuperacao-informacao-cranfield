@@ -21,6 +21,7 @@ class BM25GridResult:
     k1: float
     b: float
     report: EvaluationReport
+    rankings: dict[str, list]
 
 
 def select_best_preprocessing(
@@ -71,6 +72,7 @@ def run_bm25_parameter_grid(
                     k1=k1,
                     b=b,
                     report=report,
+                    rankings=rankings,
                 )
             )
 

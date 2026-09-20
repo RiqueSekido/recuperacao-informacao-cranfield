@@ -9,12 +9,24 @@ from preprocessing.preprocessing import (
 )
 from models.vector_model import VectorModel
 from models.bm25 import BM25Model
-from reporting.results_export import export_bm25_grid_results, export_model_reports
+from reporting.results_export import (
+    export_bm25_grid_results,
+    export_bm25_grid_rankings,
+    export_model_rankings,
+    export_model_reports,
+    export_query_modification_rankings,
+    export_error_candidates,
+)
 from experiments.bm25_grid import (
     BM25GridResult,
     run_bm25_parameter_grid,
     select_best_preprocessing,
 )
+from experiments.query_modifications import (
+    QUERY_MODIFICATIONS,
+    QueryModificationResult,
+)
+from analysis.error_candidates import select_error_candidates
 
 
 def display_processed_samples(
@@ -79,16 +91,18 @@ def evaluate_vector_models(
     models_by_config,
     processed_by_config,
     qrels,
-) -> dict[str, EvaluationReport]:
+) -> tuple[dict[str, EvaluationReport], dict[str, dict]]:
     """Avalia o modelo vetorial de cada configuração para todas as consultas."""
     print("=" * 70)
     print("AVALIAÇÃO DO MODELO VETORIAL")
     print("=" * 70)
 
     reports_by_config = {}
+    rankings_by_config = {}
     for config in PREPROCESSING_CONFIGS:
         _, processed_queries = processed_by_config[config.name]
         rankings = models_by_config[config.name].rank_all(processed_queries)
+        rankings_by_config[config.name] = rankings
         report = evaluate_rankings(rankings, qrels, k=10)
         reports_by_config[config.name] = report
 
@@ -97,7 +111,7 @@ def evaluate_vector_models(
         print(f"  Recall@10:    {report.mean_recall_at_k:.4f}")
         print(f"  MAP:          {report.mean_average_precision:.4f}\n")
 
-    return reports_by_config
+    return reports_by_config, rankings_by_config
 
 
 def build_and_evaluate_bm25_models(
@@ -105,11 +119,17 @@ def build_and_evaluate_bm25_models(
     queries,
     processed_by_config,
     qrels,
-) -> dict[str, EvaluationReport]:
+) -> tuple[
+    dict[str, BM25Model],
+    dict[str, EvaluationReport],
+    dict[str, dict],
+]:
     """Executa BM25 padrão em cada configuração e apresenta rankings e métricas."""
     first_query = queries[0]
     titles_by_id = {document.doc_id: document.title for document in documents}
+    models_by_config = {}
     reports_by_config = {}
+    rankings_by_config = {}
 
     print("=" * 70)
     print("MODELO PROBABILÍSTICO: BM25 (k1=1.2, b=0.75)")
@@ -118,8 +138,11 @@ def build_and_evaluate_bm25_models(
     for config in PREPROCESSING_CONFIGS:
         processed_documents, processed_queries = processed_by_config[config.name]
         model = BM25Model(k1=1.2, b=0.75).fit(processed_documents)
+        models_by_config[config.name] = model
         ranking = model.rank(processed_queries[first_query.query_id], top_k=10)
-        report = evaluate_rankings(model.rank_all(processed_queries), qrels, k=10)
+        rankings = model.rank_all(processed_queries)
+        rankings_by_config[config.name] = rankings
+        report = evaluate_rankings(rankings, qrels, k=10)
         reports_by_config[config.name] = report
 
         print(f"Configuração: {config.name}")
@@ -133,7 +156,7 @@ def build_and_evaluate_bm25_models(
         print(f"  Recall@10:    {report.mean_recall_at_k:.4f}")
         print(f"  MAP:          {report.mean_average_precision:.4f}\n")
 
-    return reports_by_config
+    return models_by_config, reports_by_config, rankings_by_config
 
 
 def run_and_display_bm25_parameter_grid(
@@ -172,6 +195,63 @@ def run_and_display_bm25_parameter_grid(
     return results
 
 
+def run_query_modification_experiment(
+    queries,
+    processed_by_config,
+    vector_models,
+    bm25_models,
+    standard_bm25_reports,
+) -> list[QueryModificationResult]:
+    """Executa as cinco reformulações aprovadas nos dois modelos."""
+    preprocessing_name = select_best_preprocessing(standard_bm25_reports)
+    configuration = next(
+        config for config in PREPROCESSING_CONFIGS if config.name == preprocessing_name
+    )
+    preprocessor = TextPreprocessor(configuration)
+    queries_by_id = {query.query_id: query for query in queries}
+    _, original_processed_queries = processed_by_config[preprocessing_name]
+    experiment_results = []
+
+    for modification in QUERY_MODIFICATIONS:
+        if modification.query_id not in queries_by_id:
+            raise ValueError(f"Consulta não encontrada: {modification.query_id}")
+
+        original_terms = original_processed_queries[modification.query_id]
+        modified_terms = preprocessor.process(modification.modified_text)
+        experiment_results.append(
+            QueryModificationResult(
+                query_id=modification.query_id,
+                original_text=queries_by_id[modification.query_id].text,
+                modified_text=modification.modified_text,
+                strategy=modification.strategy,
+                rankings={
+                    "original": {
+                        "vector": vector_models[preprocessing_name].rank(
+                            original_terms,
+                            top_k=10,
+                        ),
+                        "bm25": bm25_models[preprocessing_name].rank(
+                            original_terms,
+                            top_k=10,
+                        ),
+                    },
+                    "modified": {
+                        "vector": vector_models[preprocessing_name].rank(
+                            modified_terms,
+                            top_k=10,
+                        ),
+                        "bm25": bm25_models[preprocessing_name].rank(
+                            modified_terms,
+                            top_k=10,
+                        ),
+                    },
+                },
+            )
+        )
+
+    return experiment_results
+
+
 def main() -> None:
     documents, queries, qrels = load_cranfield()
     print("Coleção Cranfield carregada com sucesso.")
@@ -202,12 +282,12 @@ def main() -> None:
         queries,
         processed_by_config,
     )
-    vector_reports = evaluate_vector_models(
+    vector_reports, vector_rankings = evaluate_vector_models(
         models_by_config,
         processed_by_config,
         qrels,
     )
-    standard_bm25_reports = build_and_evaluate_bm25_models(
+    bm25_models, standard_bm25_reports, bm25_rankings = build_and_evaluate_bm25_models(
         documents,
         queries,
         processed_by_config,
@@ -218,14 +298,72 @@ def main() -> None:
         qrels,
         standard_bm25_reports,
     )
+    query_modification_results = run_query_modification_experiment(
+        queries,
+        processed_by_config,
+        models_by_config,
+        bm25_models,
+        standard_bm25_reports,
+    )
 
     vector_paths = export_model_reports(vector_reports, "vector")
     bm25_paths = export_model_reports(standard_bm25_reports, "bm25")
+    vector_ranking_paths = export_model_rankings(
+        vector_rankings,
+        "vector",
+        documents,
+        queries,
+        qrels,
+    )
+    bm25_ranking_paths = export_model_rankings(
+        bm25_rankings,
+        "bm25",
+        documents,
+        queries,
+        qrels,
+    )
     grid_summary_path, grid_per_query_path = export_bm25_grid_results(
         bm25_grid_results
     )
+    grid_ranking_path = export_bm25_grid_rankings(
+        bm25_grid_results,
+        documents,
+        queries,
+        qrels,
+    )
+    query_modification_path = export_query_modification_rankings(
+        query_modification_results,
+        documents,
+        qrels,
+    )
+    best_bm25_grid_result = max(
+        bm25_grid_results,
+        key=lambda result: result.report.mean_average_precision,
+    )
+    error_candidates = select_error_candidates(
+        documents,
+        queries,
+        qrels,
+        best_bm25_grid_result.rankings,
+    )
+    error_candidates_path = export_error_candidates(
+        error_candidates,
+        best_bm25_grid_result.preprocessing_name,
+        best_bm25_grid_result.k1,
+        best_bm25_grid_result.b,
+    )
     print("\nResultados exportados em results/")
-    for path in (*vector_paths, *bm25_paths, grid_summary_path, grid_per_query_path):
+    for path in (
+        *vector_paths,
+        *bm25_paths,
+        *vector_ranking_paths,
+        *bm25_ranking_paths,
+        grid_summary_path,
+        grid_per_query_path,
+        grid_ranking_path,
+        query_modification_path,
+        error_candidates_path,
+    ):
         print(f"  {path}")
 
 
