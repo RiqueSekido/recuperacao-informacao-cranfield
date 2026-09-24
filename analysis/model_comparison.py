@@ -57,7 +57,7 @@ def select_comparison_candidates(
 
     candidates = {
         query_id: _build_candidate(query_id, vector_report, bm25_report)
-        for query_id in common_query_ids
+        for query_id in sorted(common_query_ids, reverse=True)
     }
     selected_query_ids: set[str] = set()
 

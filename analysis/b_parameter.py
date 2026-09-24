@@ -6,7 +6,7 @@ import csv
 from dataclasses import dataclass
 from pathlib import Path
 
-from reporting.results_export import RESULTS_DIRECTORY
+from reporting.results_export import CSV_DELIMITER, RESULTS_DIRECTORY
 
 
 @dataclass(frozen=True)
@@ -56,7 +56,7 @@ def select_b_variation_candidate(
 
     rankings = {}
     with rankings_path.open(encoding="utf-8") as file:
-        for row in csv.DictReader(file):
+        for row in csv.DictReader(file, delimiter=CSV_DELIMITER):
             key = (
                 row["preprocessing"],
                 float(row["k1"]),

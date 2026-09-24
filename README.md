@@ -109,4 +109,5 @@ results/error_analysis/             candidatos para a análise de erros
 
 Os arquivos `*_metrics.csv` possuem métricas por consulta. Os arquivos
 `*_rankings.csv` possuem os documentos retornados, scores e indicação de
-relevância.
+relevância. Todos os CSVs usam ponto e vírgula (`;`) como separador de
+colunas, facilitando a abertura direta no Excel configurado para português.

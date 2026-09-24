@@ -1,455 +1,455 @@
-query_id,strategy,version,query_text,model,rank,document_id,document_title,score,relevant
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+query_id;strategy;version;query_text;model;rank;document_id;document_title;score;relevant
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",vector,1,125,"measurements of skin friction of the compressible turbulent
-boundary layer on a cone with foreign gas injection .",0.24681481215060846,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";vector;1;125;"measurements of skin friction of the compressible turbulent
+boundary layer on a cone with foreign gas injection .";0.24681481215060846;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",vector,2,413,"turbulent skin friction at high mach numbers and reynolds
-numbers in air and helium . nasa r82, 1960 .",0.2219410919699496,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";vector;2;413;"turbulent skin friction at high mach numbers and reynolds
+numbers in air and helium . nasa r82, 1960 .";0.2219410919699496;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",vector,3,254,"boundary layers with suction and injection . a review
-of published work on skin friction .",0.21338385216704217,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";vector;3;254;"boundary layers with suction and injection . a review
+of published work on skin friction .";0.21338385216704217;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",vector,4,348,turbulent boundary layer in compressible fluids .,0.21066685549915382,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";vector;4;348;turbulent boundary layer in compressible fluids .;0.21066685549915382;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",vector,5,207,"laminar boundary layer oscillations and transition
-on a flat plate .",0.19988219607854385,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";vector;5;207;"laminar boundary layer oscillations and transition
+on a flat plate .";0.19988219607854385;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",vector,6,560,"a theoretical study of the effect of upstream
+temperature .";vector;6;560;"a theoretical study of the effect of upstream
 transpiration-cooling on the heat transfer and skin friction characteristics
-of a compressible laminar boundary layer .",0.19591897400209857,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+of a compressible laminar boundary layer .";0.19591897400209857;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",vector,7,50,"investigation of laminar boundary layer in compressible
-fluids using the crocco method .",0.19574277524654446,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";vector;7;50;"investigation of laminar boundary layer in compressible
+fluids using the crocco method .";0.19574277524654446;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",vector,8,565,"similar solutions for the compressible boundary layer
-on a yawed cylinder with transpiration cooling .",0.17935028785178703,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";vector;8;565;"similar solutions for the compressible boundary layer
+on a yawed cylinder with transpiration cooling .";0.17935028785178703;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",vector,9,153,"on the steady motion of viscous, incompressible fluids,
-with particular reference to a variation principle .",0.17900772273228902,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";vector;9;153;"on the steady motion of viscous, incompressible fluids,
+with particular reference to a variation principle .";0.17900772273228902;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",vector,10,861,"charts adapted from van driest's turbulent flat-plate
+temperature .";vector;10;861;"charts adapted from van driest's turbulent flat-plate
 theory for determining values of turbulent aerodynamic
-friction and heat transfer coefficients .",0.16623861315711283,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+friction and heat transfer coefficients .";0.16623861315711283;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",bm25,1,125,"measurements of skin friction of the compressible turbulent
-boundary layer on a cone with foreign gas injection .",18.695978611077685,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";bm25;1;125;"measurements of skin friction of the compressible turbulent
+boundary layer on a cone with foreign gas injection .";18.695978611077685;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",bm25,2,560,"a theoretical study of the effect of upstream
+temperature .";bm25;2;560;"a theoretical study of the effect of upstream
 transpiration-cooling on the heat transfer and skin friction characteristics
-of a compressible laminar boundary layer .",16.774252590892818,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+of a compressible laminar boundary layer .";16.774252590892818;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",bm25,3,413,"turbulent skin friction at high mach numbers and reynolds
-numbers in air and helium . nasa r82, 1960 .",15.561897338327476,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";bm25;3;413;"turbulent skin friction at high mach numbers and reynolds
+numbers in air and helium . nasa r82, 1960 .";15.561897338327476;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",bm25,4,50,"investigation of laminar boundary layer in compressible
-fluids using the crocco method .",15.524618627274112,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";bm25;4;50;"investigation of laminar boundary layer in compressible
+fluids using the crocco method .";15.524618627274112;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",bm25,5,81,"compressible laminar flow and heat transfer about a
-rotating isothermal disk .",14.63936458101789,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";bm25;5;81;"compressible laminar flow and heat transfer about a
+rotating isothermal disk .";14.63936458101789;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",bm25,6,348,turbulent boundary layer in compressible fluids .,14.499056850424854,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";bm25;6;348;turbulent boundary layer in compressible fluids .;14.499056850424854;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",bm25,7,565,"similar solutions for the compressible boundary layer
-on a yawed cylinder with transpiration cooling .",14.38573827750156,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";bm25;7;565;"similar solutions for the compressible boundary layer
+on a yawed cylinder with transpiration cooling .";14.38573827750156;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",bm25,8,861,"charts adapted from van driest's turbulent flat-plate
+temperature .";bm25;8;861;"charts adapted from van driest's turbulent flat-plate
 theory for determining values of turbulent aerodynamic
-friction and heat transfer coefficients .",13.468016992610568,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+friction and heat transfer coefficients .";13.468016992610567;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",bm25,9,207,"laminar boundary layer oscillations and transition
-on a flat plate .",13.230343154655236,False
-22,simplificação e remoção de termos genéricos,original,"did anyone else discover that the turbulent skin friction is not over
+temperature .";bm25;9;207;"laminar boundary layer oscillations and transition
+on a flat plate .";13.230343154655236;False
+22;simplificação e remoção de termos genéricos;original;"did anyone else discover that the turbulent skin friction is not over
 sensitive to the nature of the variation of the viscosity with
-temperature .",bm25,10,254,"boundary layers with suction and injection . a review
-of published work on skin friction .",13.196133974513165,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,vector,1,378,"engineering relations for friction and heat transfer to surfaces in high
- velocity flow .",0.3649749914608168,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,vector,2,254,"boundary layers with suction and injection . a review
-of published work on skin friction .",0.29218812262038046,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,vector,3,346,measurements of turbulent friction on a smooth flat plate in supersonic .,0.2912462396474554,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,vector,4,348,turbulent boundary layer in compressible fluids .,0.28846771853406433,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,vector,5,413,"turbulent skin friction at high mach numbers and reynolds
-numbers in air and helium . nasa r82, 1960 .",0.2717685499616381,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,vector,6,125,"measurements of skin friction of the compressible turbulent
-boundary layer on a cone with foreign gas injection .",0.2700972378742454,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,vector,7,565,"similar solutions for the compressible boundary layer
-on a yawed cylinder with transpiration cooling .",0.2455857056035117,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,vector,8,560,"a theoretical study of the effect of upstream
+temperature .";bm25;10;254;"boundary layers with suction and injection . a review
+of published work on skin friction .";13.196133974513165;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;vector;1;378;"engineering relations for friction and heat transfer to surfaces in high
+ velocity flow .";0.3649749914608168;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;vector;2;254;"boundary layers with suction and injection . a review
+of published work on skin friction .";0.29218812262038046;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;vector;3;346;measurements of turbulent friction on a smooth flat plate in supersonic .;0.2912462396474554;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;vector;4;348;turbulent boundary layer in compressible fluids .;0.28846771853406433;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;vector;5;413;"turbulent skin friction at high mach numbers and reynolds
+numbers in air and helium . nasa r82, 1960 .";0.2717685499616381;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;vector;6;125;"measurements of skin friction of the compressible turbulent
+boundary layer on a cone with foreign gas injection .";0.2700972378742454;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;vector;7;565;"similar solutions for the compressible boundary layer
+on a yawed cylinder with transpiration cooling .";0.2455857056035117;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;vector;8;560;"a theoretical study of the effect of upstream
 transpiration-cooling on the heat transfer and skin friction characteristics
-of a compressible laminar boundary layer .",0.24481661286147458,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,vector,9,861,"charts adapted from van driest's turbulent flat-plate
+of a compressible laminar boundary layer .";0.24481661286147458;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;vector;9;861;"charts adapted from van driest's turbulent flat-plate
 theory for determining values of turbulent aerodynamic
-friction and heat transfer coefficients .",0.2276317902789025,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,vector,10,120,"measurement of convective heat transfer by means of
-the reynolds analogy .",0.22751611237851324,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,bm25,1,378,"engineering relations for friction and heat transfer to surfaces in high
- velocity flow .",16.168071828377432,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,bm25,2,346,measurements of turbulent friction on a smooth flat plate in supersonic .,15.84179225642141,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,bm25,3,560,"a theoretical study of the effect of upstream
+friction and heat transfer coefficients .";0.2276317902789025;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;vector;10;120;"measurement of convective heat transfer by means of
+the reynolds analogy .";0.22751611237851324;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;bm25;1;378;"engineering relations for friction and heat transfer to surfaces in high
+ velocity flow .";16.168071828377432;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;bm25;2;346;measurements of turbulent friction on a smooth flat plate in supersonic .;15.841792256421412;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;bm25;3;560;"a theoretical study of the effect of upstream
 transpiration-cooling on the heat transfer and skin friction characteristics
-of a compressible laminar boundary layer .",14.81436758458645,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,bm25,4,348,turbulent boundary layer in compressible fluids .,14.499056850424854,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,bm25,5,565,"similar solutions for the compressible boundary layer
-on a yawed cylinder with transpiration cooling .",14.38573827750156,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,bm25,6,125,"measurements of skin friction of the compressible turbulent
-boundary layer on a cone with foreign gas injection .",13.87533515115772,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,bm25,7,861,"charts adapted from van driest's turbulent flat-plate
+of a compressible laminar boundary layer .";14.81436758458645;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;bm25;4;348;turbulent boundary layer in compressible fluids .;14.499056850424854;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;bm25;5;565;"similar solutions for the compressible boundary layer
+on a yawed cylinder with transpiration cooling .";14.38573827750156;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;bm25;6;125;"measurements of skin friction of the compressible turbulent
+boundary layer on a cone with foreign gas injection .";13.87533515115772;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;bm25;7;861;"charts adapted from van driest's turbulent flat-plate
 theory for determining values of turbulent aerodynamic
-friction and heat transfer coefficients .",13.468016992610568,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,bm25,8,413,"turbulent skin friction at high mach numbers and reynolds
-numbers in air and helium . nasa r82, 1960 .",13.20831629555298,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,bm25,9,254,"boundary layers with suction and injection . a review
-of published work on skin friction .",13.196133974513165,False
-22,simplificação e remoção de termos genéricos,modified,turbulent skin friction viscosity temperature relationship,bm25,10,165,skin-friction measurements in incompressible flow .,13.073994820282735,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",vector,1,751,"a note on the use of end plates to prevent three dimensional
-flow at the ends of bluff cylinders .",0.3981268252915739,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",vector,2,68,"some aspects of air-helium simulation and hypersonic
-approximations .",0.18353282169838997,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",vector,3,1153,"a study of the simulation of flow with free stream mach number 1 in a
-choked wind tunnel .",0.17508889795468097,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",vector,4,228,navier-stokes solutions at large distances from a finite body .,0.16194151083035374,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",vector,5,1245,some aspects of nonequilibrium flows .,0.1554702422030386,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",vector,6,1209,aerodynamic processes in the downwash-impingement problem .,0.15302099506576936,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",vector,7,247,"the calculation of the pressure distribution on thick
+friction and heat transfer coefficients .";13.468016992610567;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;bm25;8;413;"turbulent skin friction at high mach numbers and reynolds
+numbers in air and helium . nasa r82, 1960 .";13.20831629555298;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;bm25;9;254;"boundary layers with suction and injection . a review
+of published work on skin friction .";13.196133974513165;False
+22;simplificação e remoção de termos genéricos;modified;turbulent skin friction viscosity temperature relationship;bm25;10;165;skin-friction measurements in incompressible flow .;13.073994820282735;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";vector;1;751;"a note on the use of end plates to prevent three dimensional
+flow at the ends of bluff cylinders .";0.3981268252915739;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";vector;2;68;"some aspects of air-helium simulation and hypersonic
+approximations .";0.18353282169838997;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";vector;3;1153;"a study of the simulation of flow with free stream mach number 1 in a
+choked wind tunnel .";0.17508889795468097;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";vector;4;228;navier-stokes solutions at large distances from a finite body .;0.16194151083035374;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";vector;5;1245;some aspects of nonequilibrium flows .;0.1554702422030386;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";vector;6;1209;aerodynamic processes in the downwash-impingement problem .;0.15302099506576936;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";vector;7;247;"the calculation of the pressure distribution on thick
 wings of small aspect ratio at zero lift in subsonic
-flow .",0.1509922903881366,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",vector,8,918,"on the low aspect ratio oscillating rectangular wing
-in supersonic flow .",0.14701648265037573,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",vector,9,551,"analysis of a loaded cantilever plate by finite difference
-methods .",0.1465033870106087,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",vector,10,698,the unsteady lift of a wing of finite aspect ratio .,0.14233371046619667,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",bm25,1,751,"a note on the use of end plates to prevent three dimensional
-flow at the ends of bluff cylinders .",27.75565465996437,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",bm25,2,1209,aerodynamic processes in the downwash-impingement problem .,18.519729734993703,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",bm25,3,1153,"a study of the simulation of flow with free stream mach number 1 in a
-choked wind tunnel .",18.069011265717606,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",bm25,4,1245,some aspects of nonequilibrium flows .,16.981836707968263,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",bm25,5,228,navier-stokes solutions at large distances from a finite body .,15.90642158701788,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",bm25,6,1082,"the flow past pitot tube at low reynolds numbers, part 1-dash the
+flow .";0.1509922903881366;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";vector;8;918;"on the low aspect ratio oscillating rectangular wing
+in supersonic flow .";0.14701648265037573;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";vector;9;551;"analysis of a loaded cantilever plate by finite difference
+methods .";0.1465033870106087;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";vector;10;698;the unsteady lift of a wing of finite aspect ratio .;0.14233371046619667;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";bm25;1;751;"a note on the use of end plates to prevent three dimensional
+flow at the ends of bluff cylinders .";27.755654659964375;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";bm25;2;1209;aerodynamic processes in the downwash-impingement problem .;18.519729734993703;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";bm25;3;1153;"a study of the simulation of flow with free stream mach number 1 in a
+choked wind tunnel .";18.069011265717606;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";bm25;4;1245;some aspects of nonequilibrium flows .;16.981836707968263;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";bm25;5;228;navier-stokes solutions at large distances from a finite body .;15.906421587017881;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";bm25;6;1082;"the flow past pitot tube at low reynolds numbers, part 1-dash the
 numerical solution of the navier-stokes equations for steady viscous
 axisymmetric flow, part 2-dash the effects of viscosity and orifice
-size on a pitot tube at low reynolds numbers .",14.88414072935295,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",bm25,7,916,"the flow around oscillating low aspect ratio wings at transonic
-speeds .",14.55886449130601,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",bm25,8,68,"some aspects of air-helium simulation and hypersonic
-approximations .",14.265476488260198,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",bm25,9,433,"application of two dimensional vortex theory to the
+size on a pitot tube at low reynolds numbers .";14.88414072935295;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";bm25;7;916;"the flow around oscillating low aspect ratio wings at transonic
+speeds .";14.55886449130601;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";bm25;8;68;"some aspects of air-helium simulation and hypersonic
+approximations .";14.265476488260198;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";bm25;9;433;"application of two dimensional vortex theory to the
 prediction of flow fields behind wings of wing-body
-combinations at subsonic and supersonic speeds .",14.216741904747895,False
-31,simplificação e foco nos termos técnicos,original,"what size of end plate can be safely used to simulate two-dimensional
-flow conditions over a bluff cylindrical body of finite aspect ratio .",bm25,10,247,"the calculation of the pressure distribution on thick
+combinations at subsonic and supersonic speeds .";14.216741904747895;False
+31;simplificação e foco nos termos técnicos;original;"what size of end plate can be safely used to simulate two-dimensional
+flow conditions over a bluff cylindrical body of finite aspect ratio .";bm25;10;247;"the calculation of the pressure distribution on thick
 wings of small aspect ratio at zero lift in subsonic
-flow .",14.072419197278661,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,vector,1,751,"a note on the use of end plates to prevent three dimensional
-flow at the ends of bluff cylinders .",0.542103726830652,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,vector,2,1209,aerodynamic processes in the downwash-impingement problem .,0.1672320855299468,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,vector,3,635,"heat transfer and pressure distributions on a hemisphere-cylinder and a
+flow .";14.07241919727866;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;vector;1;751;"a note on the use of end plates to prevent three dimensional
+flow at the ends of bluff cylinders .";0.542103726830652;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;vector;2;1209;aerodynamic processes in the downwash-impingement problem .;0.1672320855299468;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;vector;3;635;"heat transfer and pressure distributions on a hemisphere-cylinder and a
 bluff-afterbody model
-in methane-air combustion products and in air .",0.15857140849467882,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,vector,4,1398,"stability of rectangular plates under shear and bending
-forces .",0.14374041110755345,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,vector,5,678,the effect of end plates on swept wings .,0.1436274484095451,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,vector,6,812,"investigation of two bluff shapes in axial free flight
-over a mach number range from 0. 35 to 2. 15 .",0.14293251134597199,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,vector,7,1082,"the flow past pitot tube at low reynolds numbers, part 1-dash the
+in methane-air combustion products and in air .";0.15857140849467882;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;vector;4;1398;"stability of rectangular plates under shear and bending
+forces .";0.14374041110755345;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;vector;5;678;the effect of end plates on swept wings .;0.1436274484095451;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;vector;6;812;"investigation of two bluff shapes in axial free flight
+over a mach number range from 0. 35 to 2. 15 .";0.14293251134597199;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;vector;7;1082;"the flow past pitot tube at low reynolds numbers, part 1-dash the
 numerical solution of the navier-stokes equations for steady viscous
 axisymmetric flow, part 2-dash the effects of viscosity and orifice
-size on a pitot tube at low reynolds numbers .",0.1410363465364051,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,vector,8,228,navier-stokes solutions at large distances from a finite body .,0.14074112955427498,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,vector,9,4,"approximate solutions of the incompressible laminar
-boundary layer equations for a plate in shear flow .",0.14068880119661695,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,vector,10,188,"an analysis of base pressure at supersonic velocities and
-comparison with experiment .",0.14046216497674122,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,bm25,1,751,"a note on the use of end plates to prevent three dimensional
-flow at the ends of bluff cylinders .",26.114453832276592,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,bm25,2,1209,aerodynamic processes in the downwash-impingement problem .,13.211339966739999,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,bm25,3,228,navier-stokes solutions at large distances from a finite body .,11.07955309575005,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,bm25,4,1082,"the flow past pitot tube at low reynolds numbers, part 1-dash the
+size on a pitot tube at low reynolds numbers .";0.1410363465364051;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;vector;8;228;navier-stokes solutions at large distances from a finite body .;0.14074112955427498;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;vector;9;4;"approximate solutions of the incompressible laminar
+boundary layer equations for a plate in shear flow .";0.14068880119661695;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;vector;10;188;"an analysis of base pressure at supersonic velocities and
+comparison with experiment .";0.14046216497674122;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;bm25;1;751;"a note on the use of end plates to prevent three dimensional
+flow at the ends of bluff cylinders .";26.114453832276592;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;bm25;2;1209;aerodynamic processes in the downwash-impingement problem .;13.211339966739999;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;bm25;3;228;navier-stokes solutions at large distances from a finite body .;11.07955309575005;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;bm25;4;1082;"the flow past pitot tube at low reynolds numbers, part 1-dash the
 numerical solution of the navier-stokes equations for steady viscous
 axisymmetric flow, part 2-dash the effects of viscosity and orifice
-size on a pitot tube at low reynolds numbers .",11.015331527769629,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,bm25,5,188,"an analysis of base pressure at supersonic velocities and
-comparison with experiment .",10.590775588097168,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,bm25,6,179,"an analysis of base pressure at supersonic speeds and
-comparison with experiment .",10.502673018243112,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,bm25,7,1040,"on transverse vibrations of thin, shallow elastic shells .",10.307060046245098,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,bm25,8,1398,"stability of rectangular plates under shear and bending
-forces .",9.992728945300613,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,bm25,9,2,"simple shear flow past a flat plate in an incompressible fluid of small
-viscosity .",9.882713295706656,False
-31,simplificação e foco nos termos técnicos,modified,end plate size two-dimensional flow bluff cylindrical body,bm25,10,844,"flexural vibrations of the walls of thin cylindrical
-shells having freely supported ends .",9.726585837773316,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",vector,1,1190,flow of a gas near a solid surface .,0.18963653599537475,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",vector,2,1199,"theoretical investigations of a supersonic laminar
-boundary layer with foreign-gas injection .",0.12401847964310189,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",vector,3,103,"theory of mixing and chemical reaction in the opposed
-jet diffusion flame .",0.1196122061744991,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",vector,4,1148,knudsen flow through a circular capillary .,0.1130306266456475,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",vector,5,943,compressible free shear layer with finite initial thickness .,0.10788729252897865,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",vector,6,1314,production of high temperature gases in shock tubes .,0.10625744938406957,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",vector,7,1031,note on creep buckling of columns .,0.10259749143636952,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",vector,8,583,influence coefficients for real gases .,0.10029487418847516,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",vector,9,862,"the phenomenon of change in buckle pattern in elastic
-structures .",0.09830702396134443,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",vector,10,541,"similitude of hypersonic flows over slender bodies
-in non-equilibrium dissociated gases .",0.09789351699009692,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",bm25,1,1190,flow of a gas near a solid surface .,15.775247568045803,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",bm25,2,103,"theory of mixing and chemical reaction in the opposed
-jet diffusion flame .",11.476270672958119,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",bm25,3,1199,"theoretical investigations of a supersonic laminar
-boundary layer with foreign-gas injection .",10.741816865285415,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",bm25,4,108,properties of the confluent hypergeometric function .,10.094321834387738,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",bm25,5,541,"similitude of hypersonic flows over slender bodies
-in non-equilibrium dissociated gases .",8.988350364027147,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",bm25,6,943,compressible free shear layer with finite initial thickness .,8.846337993123107,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",bm25,7,357,"optimum nose shapes for missiles in the super-aerodynamic
-region .",8.391822027430166,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",bm25,8,1148,knudsen flow through a circular capillary .,7.911645789984132,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",bm25,9,1374,"theoretical analysis of turbulent mixing of reactive
+size on a pitot tube at low reynolds numbers .";11.015331527769629;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;bm25;5;188;"an analysis of base pressure at supersonic velocities and
+comparison with experiment .";10.590775588097168;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;bm25;6;179;"an analysis of base pressure at supersonic speeds and
+comparison with experiment .";10.502673018243112;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;bm25;7;1040;on transverse vibrations of thin, shallow elastic shells .;10.307060046245098;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;bm25;8;1398;"stability of rectangular plates under shear and bending
+forces .";9.992728945300613;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;bm25;9;2;"simple shear flow past a flat plate in an incompressible fluid of small
+viscosity .";9.882713295706656;False
+31;simplificação e foco nos termos técnicos;modified;end plate size two-dimensional flow bluff cylindrical body;bm25;10;844;"flexural vibrations of the walls of thin cylindrical
+shells having freely supported ends .";9.726585837773316;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";vector;1;1190;flow of a gas near a solid surface .;0.18963653599537475;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";vector;2;1199;"theoretical investigations of a supersonic laminar
+boundary layer with foreign-gas injection .";0.12401847964310189;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";vector;3;103;"theory of mixing and chemical reaction in the opposed
+jet diffusion flame .";0.1196122061744991;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";vector;4;1148;knudsen flow through a circular capillary .;0.1130306266456475;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";vector;5;943;compressible free shear layer with finite initial thickness .;0.10788729252897865;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";vector;6;1314;production of high temperature gases in shock tubes .;0.10625744938406957;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";vector;7;1031;note on creep buckling of columns .;0.10259749143636952;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";vector;8;583;influence coefficients for real gases .;0.10029487418847516;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";vector;9;862;"the phenomenon of change in buckle pattern in elastic
+structures .";0.09830702396134443;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";vector;10;541;"similitude of hypersonic flows over slender bodies
+in non-equilibrium dissociated gases .";0.09789351699009692;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";bm25;1;1190;flow of a gas near a solid surface .;15.775247568045803;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";bm25;2;103;"theory of mixing and chemical reaction in the opposed
+jet diffusion flame .";11.476270672958119;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";bm25;3;1199;"theoretical investigations of a supersonic laminar
+boundary layer with foreign-gas injection .";10.741816865285415;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";bm25;4;108;properties of the confluent hypergeometric function .;10.094321834387738;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";bm25;5;541;"similitude of hypersonic flows over slender bodies
+in non-equilibrium dissociated gases .";8.988350364027147;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";bm25;6;943;compressible free shear layer with finite initial thickness .;8.846337993123107;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";bm25;7;357;"optimum nose shapes for missiles in the super-aerodynamic
+region .";8.391822027430166;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";bm25;8;1148;knudsen flow through a circular capillary .;7.911645789984132;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";bm25;9;1374;"theoretical analysis of turbulent mixing of reactive
 gases with application to supersonic combustion of
-hydrogen .",7.842710904334155,False
-44,priorização do termo técnico central,original,"what are the details of the rigorous kinetic theory of gases .
-(chapman-enskog theory) .",bm25,10,1031,note on creep buckling of columns .,7.592048384334349,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,vector,1,1190,flow of a gas near a solid surface .,0.19597010441724552,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,vector,2,1199,"theoretical investigations of a supersonic laminar
-boundary layer with foreign-gas injection .",0.13633301514033871,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,vector,3,103,"theory of mixing and chemical reaction in the opposed
-jet diffusion flame .",0.1315480575202963,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,vector,4,943,compressible free shear layer with finite initial thickness .,0.12750665204256842,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,vector,5,1314,production of high temperature gases in shock tubes .,0.12558042108533066,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,vector,6,583,influence coefficients for real gases .,0.11853354853045497,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,vector,7,405,tables of thermal properties of gases .,0.11396603291718756,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,vector,8,108,properties of the confluent hypergeometric function .,0.10334233556357753,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,vector,9,1160,recent advances in gaseous detonation .,0.09797697906618548,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,vector,10,410,"the supersonic flow about a blunt body of revolution
-for gases at chemical equilibrium .",0.0971018958135343,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,bm25,1,1190,flow of a gas near a solid surface .,12.890930932069018,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,bm25,2,103,"theory of mixing and chemical reaction in the opposed
-jet diffusion flame .",11.476270672958119,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,bm25,3,1199,"theoretical investigations of a supersonic laminar
-boundary layer with foreign-gas injection .",10.741816865285415,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,bm25,4,108,properties of the confluent hypergeometric function .,10.094321834387738,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,bm25,5,943,compressible free shear layer with finite initial thickness .,8.846337993123107,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,bm25,6,357,"optimum nose shapes for missiles in the super-aerodynamic
-region .",8.391822027430166,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,bm25,7,1226,"heat transfer in the laminar boundary layer with ablation
-of vapor of arbitrary molecular weight .",6.925062477876713,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,bm25,8,1160,recent advances in gaseous detonation .,6.922569999829201,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,bm25,9,541,"similitude of hypersonic flows over slender bodies
-in non-equilibrium dissociated gases .",6.722207411072753,False
-44,priorização do termo técnico central,modified,Chapman Enskog theory kinetic gases,bm25,10,849,"a theory of imperfection for the vibrations of elastic bodies of
-revolution .",6.621358741418411,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",vector,1,175,experiments with static tubes in a supersonic airstream .,0.19688669049522112,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",vector,2,1225,"the effect of adverse pressure gradients on the characteristics of
-turbulent boundary layers in supersonic streams .",0.1965310437918184,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",vector,3,407,"stationary convection flow of an electrically conducting
-liquid between parallel plates in a magnetic field .",0.1958647512599715,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",vector,4,958,air scooping vehicle .,0.18795531568577337,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",vector,5,39,on the flow of a sonic stream past an airfoil surface .,0.17604327935397748,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",vector,6,1269,a study of supersonic combustion .,0.17099009119522146,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",vector,7,905,comparative tests of pitot-static tubes .,0.1651710759538741,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",vector,8,974,approximate analysis of thrust vector control by fluid injection .,0.1587347136668531,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",vector,9,1364,"an experimental investigation of the interaction between shock waves and
- boundary layers .",0.15356077168643156,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",vector,10,117,the motion of a viscous liquid past a paraboloid .,0.15161421785594392,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",bm25,1,693,"investigation of jet effects on a flat surface downstream of the exit of
- a simulated turbojet nacelle at a free-stream mach number of 1.39 .",14.04971584635545,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",bm25,2,692,"investigation of the jet effects on a flat surface downstream of the
+hydrogen .";7.842710904334155;False
+44;priorização do termo técnico central;original;"what are the details of the rigorous kinetic theory of gases .
+(chapman-enskog theory) .";bm25;10;1031;note on creep buckling of columns .;7.592048384334349;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;vector;1;1190;flow of a gas near a solid surface .;0.19597010441724552;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;vector;2;1199;"theoretical investigations of a supersonic laminar
+boundary layer with foreign-gas injection .";0.13633301514033871;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;vector;3;103;"theory of mixing and chemical reaction in the opposed
+jet diffusion flame .";0.1315480575202963;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;vector;4;943;compressible free shear layer with finite initial thickness .;0.12750665204256842;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;vector;5;1314;production of high temperature gases in shock tubes .;0.12558042108533066;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;vector;6;583;influence coefficients for real gases .;0.11853354853045497;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;vector;7;405;tables of thermal properties of gases .;0.11396603291718756;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;vector;8;108;properties of the confluent hypergeometric function .;0.10334233556357753;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;vector;9;1160;recent advances in gaseous detonation .;0.09797697906618548;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;vector;10;410;"the supersonic flow about a blunt body of revolution
+for gases at chemical equilibrium .";0.0971018958135343;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;bm25;1;1190;flow of a gas near a solid surface .;12.890930932069018;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;bm25;2;103;"theory of mixing and chemical reaction in the opposed
+jet diffusion flame .";11.476270672958119;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;bm25;3;1199;"theoretical investigations of a supersonic laminar
+boundary layer with foreign-gas injection .";10.741816865285415;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;bm25;4;108;properties of the confluent hypergeometric function .;10.094321834387738;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;bm25;5;943;compressible free shear layer with finite initial thickness .;8.846337993123107;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;bm25;6;357;"optimum nose shapes for missiles in the super-aerodynamic
+region .";8.391822027430166;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;bm25;7;1226;"heat transfer in the laminar boundary layer with ablation
+of vapor of arbitrary molecular weight .";6.925062477876713;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;bm25;8;1160;recent advances in gaseous detonation .;6.922569999829201;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;bm25;9;541;"similitude of hypersonic flows over slender bodies
+in non-equilibrium dissociated gases .";6.722207411072753;False
+44;priorização do termo técnico central;modified;Chapman Enskog theory kinetic gases;bm25;10;849;"a theory of imperfection for the vibrations of elastic bodies of
+revolution .";6.621358741418411;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";vector;1;175;experiments with static tubes in a supersonic airstream .;0.19688669049522112;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";vector;2;1225;"the effect of adverse pressure gradients on the characteristics of
+turbulent boundary layers in supersonic streams .";0.1965310437918184;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";vector;3;407;"stationary convection flow of an electrically conducting
+liquid between parallel plates in a magnetic field .";0.1958647512599715;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";vector;4;958;air scooping vehicle .;0.18795531568577337;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";vector;5;39;on the flow of a sonic stream past an airfoil surface .;0.17604327935397748;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";vector;6;1269;a study of supersonic combustion .;0.17099009119522146;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";vector;7;905;comparative tests of pitot-static tubes .;0.1651710759538741;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";vector;8;974;approximate analysis of thrust vector control by fluid injection .;0.1587347136668531;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";vector;9;1364;"an experimental investigation of the interaction between shock waves and
+ boundary layers .";0.15356077168643156;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";vector;10;117;the motion of a viscous liquid past a paraboloid .;0.15161421785594392;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";bm25;1;693;"investigation of jet effects on a flat surface downstream of the exit of
+ a simulated turbojet nacelle at a free-stream mach number of 1.39 .";14.04971584635545;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";bm25;2;692;"investigation of the jet effects on a flat surface downstream of the
 exit of a simulated turbojet nacelle at a free-stream mach number of
-2.02 .",13.989699894545858,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",bm25,3,958,air scooping vehicle .,13.815551077074518,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",bm25,4,175,experiments with static tubes in a supersonic airstream .,12.828756789524725,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",bm25,5,1156,"experimental investigation of attenuation of strong
+2.02 .";13.98969989454586;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";bm25;3;958;air scooping vehicle .;13.815551077074517;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";bm25;4;175;experiments with static tubes in a supersonic airstream .;12.828756789524725;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";bm25;5;1156;"experimental investigation of attenuation of strong
 shock waves in a shock tube with hydrogen and helium
-as driver gases .",12.73335845881075,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",bm25,6,39,on the flow of a sonic stream past an airfoil surface .,12.554856632004297,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",bm25,7,1225,"the effect of adverse pressure gradients on the characteristics of
-turbulent boundary layers in supersonic streams .",12.495312969692852,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",bm25,8,905,comparative tests of pitot-static tubes .,12.063916758511102,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",bm25,9,695,"some experiments relating to the problem of simulation of hot jet
+as driver gases .";12.73335845881075;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";bm25;6;39;on the flow of a sonic stream past an airfoil surface .;12.554856632004297;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";bm25;7;1225;"the effect of adverse pressure gradients on the characteristics of
+turbulent boundary layers in supersonic streams .";12.495312969692852;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";bm25;8;905;comparative tests of pitot-static tubes .;12.063916758511102;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";bm25;9;695;"some experiments relating to the problem of simulation of hot jet
 engines in studies of jet effects on adjacent surfaces at a free-stream
-mach number of 1.80 .",11.99661316897251,False
-216,remoção de termos funcionais,original,"what investigations have been made of the wave system created by a
-static pressure distribution over a liquid surface .",bm25,10,330,taylor instability of finite surface waves .,11.791344830381552,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,vector,1,407,"stationary convection flow of an electrically conducting
-liquid between parallel plates in a magnetic field .",0.23206503818182622,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,vector,2,39,on the flow of a sonic stream past an airfoil surface .,0.22818683561185193,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,vector,3,958,air scooping vehicle .,0.22691873642324087,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,vector,4,1006,free-flight measurements of the static and dynamic .,0.19375409739817503,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,vector,5,1032,on the conservativeness of various distributed force systems .,0.1923551816869216,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,vector,6,974,approximate analysis of thrust vector control by fluid injection .,0.19117844660176295,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,vector,7,175,experiments with static tubes in a supersonic airstream .,0.1857921609278159,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,vector,8,345,"the interaction of shock waves with boundary layer
-on a flat surface .",0.1758880970482064,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,vector,9,1107,"the flow field over blunted flat plates and its effect
+mach number of 1.80 .";11.996613168972509;False
+216;remoção de termos funcionais;original;"what investigations have been made of the wave system created by a
+static pressure distribution over a liquid surface .";bm25;10;330;taylor instability of finite surface waves .;11.79134483038155;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;vector;1;407;"stationary convection flow of an electrically conducting
+liquid between parallel plates in a magnetic field .";0.23206503818182622;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;vector;2;39;on the flow of a sonic stream past an airfoil surface .;0.22818683561185193;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;vector;3;958;air scooping vehicle .;0.22691873642324087;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;vector;4;1006;free-flight measurements of the static and dynamic .;0.19375409739817503;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;vector;5;1032;on the conservativeness of various distributed force systems .;0.1923551816869216;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;vector;6;974;approximate analysis of thrust vector control by fluid injection .;0.19117844660176295;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;vector;7;175;experiments with static tubes in a supersonic airstream .;0.1857921609278159;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;vector;8;345;"the interaction of shock waves with boundary layer
+on a flat surface .";0.1758880970482064;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;vector;9;1107;"the flow field over blunted flat plates and its effect
 on turbulent boundary growth and heat transfer at a
-mach number of 4. 7.",0.1719707065856453,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,vector,10,764,"breathing vibrations of a circular shell with an internal
-liquid .",0.17075462880863418,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,bm25,1,39,on the flow of a sonic stream past an airfoil surface .,12.554856632004297,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,bm25,2,958,air scooping vehicle .,12.194159189249064,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,bm25,3,345,"the interaction of shock waves with boundary layer
-on a flat surface .",10.85891490511194,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,bm25,4,1006,free-flight measurements of the static and dynamic .,10.850502140960577,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,bm25,5,1032,on the conservativeness of various distributed force systems .,10.427080627950371,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,bm25,6,1107,"the flow field over blunted flat plates and its effect
+mach number of 4. 7.";0.1719707065856453;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;vector;10;764;"breathing vibrations of a circular shell with an internal
+liquid .";0.17075462880863418;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;bm25;1;39;on the flow of a sonic stream past an airfoil surface .;12.554856632004297;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;bm25;2;958;air scooping vehicle .;12.194159189249064;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;bm25;3;345;"the interaction of shock waves with boundary layer
+on a flat surface .";10.85891490511194;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;bm25;4;1006;free-flight measurements of the static and dynamic .;10.850502140960579;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;bm25;5;1032;on the conservativeness of various distributed force systems .;10.427080627950371;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;bm25;6;1107;"the flow field over blunted flat plates and its effect
 on turbulent boundary growth and heat transfer at a
-mach number of 4. 7.",10.331725236030344,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,bm25,7,330,taylor instability of finite surface waves .,10.216069350074996,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,bm25,8,692,"investigation of the jet effects on a flat surface downstream of the
+mach number of 4. 7.";10.331725236030346;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;bm25;7;330;taylor instability of finite surface waves .;10.216069350074996;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;bm25;8;692;"investigation of the jet effects on a flat surface downstream of the
 exit of a simulated turbojet nacelle at a free-stream mach number of
-2.02 .",10.05329885657396,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,bm25,9,693,"investigation of jet effects on a flat surface downstream of the exit of
- a simulated turbojet nacelle at a free-stream mach number of 1.39 .",10.021797247491168,False
-216,remoção de termos funcionais,modified,wave system static pressure distribution liquid surface,bm25,10,1077,"a method of solution with tabulated results for the attached oblique
+2.02 .";10.053298856573962;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;bm25;9;693;"investigation of jet effects on a flat surface downstream of the exit of
+ a simulated turbojet nacelle at a free-stream mach number of 1.39 .";10.021797247491168;False
+216;remoção de termos funcionais;modified;wave system static pressure distribution liquid surface;bm25;10;1077;"a method of solution with tabulated results for the attached oblique
 shock wave system for surfaces at various angles of attack, sweep, and
-dihedral in an equilibrium real gas including the atmosphere .",9.730750622269316,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,vector,1,496,"a theory of transonic aileron buzz, neglecting viscous
-effects .",0.518738936491934,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,vector,2,903,"two dimensional transonic unsteady flow with shock
-waves .",0.23349666010852363,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,vector,3,313,"on alternative forms for the basic equations of transonic
-flow theory .",0.21931528277904627,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,vector,4,643,"an investigation of wing-aileron flutter using ground
-launched rocket models .",0.1860547793315406,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,vector,5,507,energy equation approximations in fluid mechanics .,0.16329048190786025,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,vector,6,199,"measurement of two dimensional derivatives on a wing-aileron-tab
-system .",0.14729341958342254,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,vector,7,520,"wing-tail interference as a cause of 'magnus' effects
-on a finned missile .",0.14684760022026935,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,vector,8,440,"compilation of information on the transonic attachment
-of flows at the leading edge of airfoils .",0.14311840637302603,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,vector,9,38,"on the prediction of mixed subsonic/supersonic pressure
-distributions .",0.13779246263633432,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,vector,10,879,flutter model testing at transonic speeds .,0.12853252925881004,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,bm25,1,496,"a theory of transonic aileron buzz, neglecting viscous
-effects .",25.623926461690196,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,bm25,2,903,"two dimensional transonic unsteady flow with shock
-waves .",14.955611283622314,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,bm25,3,520,"wing-tail interference as a cause of 'magnus' effects
-on a finned missile .",12.104412268610906,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,bm25,4,313,"on alternative forms for the basic equations of transonic
-flow theory .",11.371935391591773,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,bm25,5,440,"compilation of information on the transonic attachment
-of flows at the leading edge of airfoils .",9.717546967964925,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,bm25,6,643,"an investigation of wing-aileron flutter using ground
-launched rocket models .",9.32166289673747,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,bm25,7,38,"on the prediction of mixed subsonic/supersonic pressure
-distributions .",9.051458828110718,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,bm25,8,199,"measurement of two dimensional derivatives on a wing-aileron-tab
-system .",9.003969278438026,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,bm25,9,880,the design and testing of supersonic flutter models .,8.63107698534095,False
-13,encurtamento e priorização de termos técnicos,original,what is the basic mechanism of the transonic aileron buzz .,bm25,10,797,"a study of the effect of leading-edge modifications on the flow over
-a 50degree sweptback wing at transonic speeds .",7.745635138721594,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,vector,1,496,"a theory of transonic aileron buzz, neglecting viscous
-effects .",0.558284681698823,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,vector,2,903,"two dimensional transonic unsteady flow with shock
-waves .",0.25129713502516754,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,vector,3,643,"an investigation of wing-aileron flutter using ground
-launched rocket models .",0.20023855151514927,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,vector,4,507,energy equation approximations in fluid mechanics .,0.1757388318156346,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,vector,5,199,"measurement of two dimensional derivatives on a wing-aileron-tab
-system .",0.15852224323967024,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,vector,6,38,"on the prediction of mixed subsonic/supersonic pressure
-distributions .",0.1482969866570234,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,vector,7,879,flutter model testing at transonic speeds .,0.13833112792819088,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,vector,8,503,"theoretical prediction of the transonic characteristics
-of airfoils .",0.12699240647995397,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,vector,9,520,"wing-tail interference as a cause of 'magnus' effects
-on a finned missile .",0.12574718959516398,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,vector,10,313,"on alternative forms for the basic equations of transonic
-flow theory .",0.11910687278092782,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,bm25,1,496,"a theory of transonic aileron buzz, neglecting viscous
-effects .",25.623926461690196,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,bm25,2,903,"two dimensional transonic unsteady flow with shock
-waves .",14.955611283622316,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,bm25,3,643,"an investigation of wing-aileron flutter using ground
-launched rocket models .",9.32166289673747,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,bm25,4,520,"wing-tail interference as a cause of 'magnus' effects
-on a finned missile .",9.085431246020196,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,bm25,5,38,"on the prediction of mixed subsonic/supersonic pressure
-distributions .",9.051458828110718,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,bm25,6,199,"measurement of two dimensional derivatives on a wing-aileron-tab
-system .",9.003969278438026,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,bm25,7,507,energy equation approximations in fluid mechanics .,6.021751011978908,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,bm25,8,1268,"stable combustion of a high-velocity gas in a heated
-boundary layer .",6.01489405152562,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,bm25,9,503,"theoretical prediction of the transonic characteristics
-of airfoils .",5.767422848109193,False
-13,encurtamento e priorização de termos técnicos,modified,transonic aileron buzz mechanism,bm25,10,468,a refinement of the linearised transonic flow theory .,5.758670516039417,False
+dihedral in an equilibrium real gas including the atmosphere .";9.730750622269316;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;vector;1;496;"a theory of transonic aileron buzz, neglecting viscous
+effects .";0.518738936491934;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;vector;2;903;"two dimensional transonic unsteady flow with shock
+waves .";0.23349666010852363;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;vector;3;313;"on alternative forms for the basic equations of transonic
+flow theory .";0.21931528277904627;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;vector;4;643;"an investigation of wing-aileron flutter using ground
+launched rocket models .";0.1860547793315406;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;vector;5;507;energy equation approximations in fluid mechanics .;0.16329048190786025;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;vector;6;199;"measurement of two dimensional derivatives on a wing-aileron-tab
+system .";0.14729341958342254;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;vector;7;520;"wing-tail interference as a cause of 'magnus' effects
+on a finned missile .";0.14684760022026935;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;vector;8;440;"compilation of information on the transonic attachment
+of flows at the leading edge of airfoils .";0.14311840637302603;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;vector;9;38;"on the prediction of mixed subsonic/supersonic pressure
+distributions .";0.13779246263633432;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;vector;10;879;flutter model testing at transonic speeds .;0.12853252925881004;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;bm25;1;496;"a theory of transonic aileron buzz, neglecting viscous
+effects .";25.623926461690196;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;bm25;2;903;"two dimensional transonic unsteady flow with shock
+waves .";14.955611283622316;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;bm25;3;520;"wing-tail interference as a cause of 'magnus' effects
+on a finned missile .";12.104412268610906;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;bm25;4;313;"on alternative forms for the basic equations of transonic
+flow theory .";11.371935391591773;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;bm25;5;440;"compilation of information on the transonic attachment
+of flows at the leading edge of airfoils .";9.717546967964925;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;bm25;6;643;"an investigation of wing-aileron flutter using ground
+launched rocket models .";9.32166289673747;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;bm25;7;38;"on the prediction of mixed subsonic/supersonic pressure
+distributions .";9.051458828110718;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;bm25;8;199;"measurement of two dimensional derivatives on a wing-aileron-tab
+system .";9.003969278438026;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;bm25;9;880;the design and testing of supersonic flutter models .;8.63107698534095;False
+13;encurtamento e priorização de termos técnicos;original;what is the basic mechanism of the transonic aileron buzz .;bm25;10;797;"a study of the effect of leading-edge modifications on the flow over
+a 50degree sweptback wing at transonic speeds .";7.745635138721594;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;vector;1;496;"a theory of transonic aileron buzz, neglecting viscous
+effects .";0.558284681698823;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;vector;2;903;"two dimensional transonic unsteady flow with shock
+waves .";0.25129713502516754;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;vector;3;643;"an investigation of wing-aileron flutter using ground
+launched rocket models .";0.20023855151514927;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;vector;4;507;energy equation approximations in fluid mechanics .;0.1757388318156346;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;vector;5;199;"measurement of two dimensional derivatives on a wing-aileron-tab
+system .";0.15852224323967024;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;vector;6;38;"on the prediction of mixed subsonic/supersonic pressure
+distributions .";0.1482969866570234;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;vector;7;879;flutter model testing at transonic speeds .;0.13833112792819088;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;vector;8;503;"theoretical prediction of the transonic characteristics
+of airfoils .";0.12699240647995397;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;vector;9;520;"wing-tail interference as a cause of 'magnus' effects
+on a finned missile .";0.12574718959516398;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;vector;10;313;"on alternative forms for the basic equations of transonic
+flow theory .";0.11910687278092782;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;bm25;1;496;"a theory of transonic aileron buzz, neglecting viscous
+effects .";25.623926461690196;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;bm25;2;903;"two dimensional transonic unsteady flow with shock
+waves .";14.955611283622316;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;bm25;3;643;"an investigation of wing-aileron flutter using ground
+launched rocket models .";9.32166289673747;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;bm25;4;520;"wing-tail interference as a cause of 'magnus' effects
+on a finned missile .";9.085431246020196;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;bm25;5;38;"on the prediction of mixed subsonic/supersonic pressure
+distributions .";9.051458828110718;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;bm25;6;199;"measurement of two dimensional derivatives on a wing-aileron-tab
+system .";9.003969278438026;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;bm25;7;507;energy equation approximations in fluid mechanics .;6.021751011978908;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;bm25;8;1268;"stable combustion of a high-velocity gas in a heated
+boundary layer .";6.01489405152562;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;bm25;9;503;"theoretical prediction of the transonic characteristics
+of airfoils .";5.767422848109193;False
+13;encurtamento e priorização de termos técnicos;modified;transonic aileron buzz mechanism;bm25;10;468;a refinement of the linearised transonic flow theory .;5.758670516039417;False

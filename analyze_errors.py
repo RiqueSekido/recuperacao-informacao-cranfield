@@ -3,7 +3,7 @@
 import csv
 from pathlib import Path
 
-from reporting.results_export import RESULTS_DIRECTORY
+from reporting.results_export import CSV_DELIMITER, RESULTS_DIRECTORY
 
 
 def main() -> None:
@@ -14,7 +14,7 @@ def main() -> None:
         )
 
     with path.open(encoding="utf-8") as file:
-        candidates = list(csv.DictReader(file))
+        candidates = list(csv.DictReader(file, delimiter=CSV_DELIMITER))
 
     print("=" * 70)
     print("CANDIDATOS PARA ANÁLISE DE ERROS")

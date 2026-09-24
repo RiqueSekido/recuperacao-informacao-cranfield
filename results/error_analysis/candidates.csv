@@ -1,7 +1,7 @@
-case,preprocessing,k1,b,query_id,query_text,document_id,document_title,rank,score
-non_relevant_in_top_10,without_stopwords_with_stemming,2.0,0.75,100,"what are the effects of initial imperfections on the elastic buckling of
-cylindrical shells under axial compression .",760,"inelastic buckling of initially imperfect cylindrical
-shells subject to axial compression .",1,36.925731867323805
-non_relevant_in_top_10,without_stopwords_with_stemming,2.0,0.75,103,is the information on the buckling of sandwich sphere available .,761,buckling of sandwich under normal pressure .,1,22.930542461167946
-relevant_outside_top_10,without_stopwords_with_stemming,2.0,0.75,1,"what similarity laws must be obeyed when constructing aeroelastic models
-of heated high speed aircraft .",879,flutter model testing at transonic speeds .,11,13.689686964427306
+case;preprocessing;k1;b;query_id;query_text;document_id;document_title;rank;score
+non_relevant_in_top_10;without_stopwords_with_stemming;2.0;0.75;100;"what are the effects of initial imperfections on the elastic buckling of
+cylindrical shells under axial compression .";760;"inelastic buckling of initially imperfect cylindrical
+shells subject to axial compression .";1;36.925731867323805
+non_relevant_in_top_10;without_stopwords_with_stemming;2.0;0.75;103;is the information on the buckling of sandwich sphere available .;761;buckling of sandwich under normal pressure .;1;22.930542461167942
+relevant_outside_top_10;without_stopwords_with_stemming;2.0;0.75;1;"what similarity laws must be obeyed when constructing aeroelastic models
+of heated high speed aircraft .";879;flutter model testing at transonic speeds .;11;13.689686964427306

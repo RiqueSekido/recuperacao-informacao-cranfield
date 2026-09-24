@@ -11,6 +11,7 @@ from experiments.bm25_grid import BM25GridResult
 
 
 RESULTS_DIRECTORY = Path("results")
+CSV_DELIMITER = ";"
 MODEL_RESULTS_DIRECTORIES = {
     "vector": RESULTS_DIRECTORY / "vector",
     "bm25": RESULTS_DIRECTORY / "bm25" / "preprocessing",
@@ -28,6 +29,7 @@ def _write_per_query_metrics(
     with output_path.open("w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(
             file,
+            delimiter=CSV_DELIMITER,
             fieldnames=(
                 "query_id",
                 "precision_at_10",
@@ -106,6 +108,7 @@ def export_model_rankings(
         with output_path.open("w", newline="", encoding="utf-8") as file:
             writer = csv.DictWriter(
                 file,
+                delimiter=CSV_DELIMITER,
                 fieldnames=(
                     "query_id",
                     "query_text",
@@ -153,6 +156,7 @@ def export_bm25_grid_results(
     with aggregate_path.open("w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(
             file,
+            delimiter=CSV_DELIMITER,
             fieldnames=(
                 "preprocessing",
                 "k1",
@@ -180,6 +184,7 @@ def export_bm25_grid_results(
     with per_query_path.open("w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(
             file,
+            delimiter=CSV_DELIMITER,
             fieldnames=(
                 "preprocessing",
                 "k1",
@@ -234,6 +239,7 @@ def export_bm25_grid_rankings(
     with output_path.open("w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(
             file,
+            delimiter=CSV_DELIMITER,
             fieldnames=(
                 "preprocessing",
                 "k1",
@@ -294,6 +300,7 @@ def export_query_modification_rankings(
     with output_path.open("w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(
             file,
+            delimiter=CSV_DELIMITER,
             fieldnames=(
                 "query_id",
                 "strategy",
@@ -353,6 +360,7 @@ def export_error_candidates(
     with output_path.open("w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(
             file,
+            delimiter=CSV_DELIMITER,
             fieldnames=(
                 "case",
                 "preprocessing",

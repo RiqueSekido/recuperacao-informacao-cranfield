@@ -7,14 +7,29 @@ from pathlib import Path
 
 from analysis.model_comparison import select_comparison_candidates
 from evaluation.evaluation import EvaluationReport, QueryMetrics
-from experiments.bm25_grid import select_best_preprocessing
-from reporting.results_export import RESULTS_DIRECTORY
+from reporting.results_export import CSV_DELIMITER, RESULTS_DIRECTORY
 
 
-def _load_report(metrics_path: Path) -> EvaluationReport:
+def _matches_configuration(row: dict[str, str], configuration: tuple[str, float, float]) -> bool:
+    """Compara a configuração da grade, aceitando diferentes formatos numéricos."""
+    preprocessing, k1, b = configuration
+    return (
+        row["preprocessing"] == preprocessing
+        and float(row["k1"]) == k1
+        and float(row["b"]) == b
+    )
+
+
+def _load_report(
+    metrics_path: Path,
+    configuration: tuple[str, float, float] | None = None,
+) -> EvaluationReport:
     """Reconstrói um relatório de avaliação a partir de um CSV por consulta."""
     with metrics_path.open(encoding="utf-8") as file:
-        rows = list(csv.DictReader(file))
+        rows = list(csv.DictReader(file, delimiter=CSV_DELIMITER))
+
+    if configuration is not None:
+        rows = [row for row in rows if _matches_configuration(row, configuration)]
 
     if not rows:
         raise ValueError(f"O arquivo não possui métricas: {metrics_path}")
@@ -61,7 +76,10 @@ def _load_reports(directory: Path) -> dict[str, EvaluationReport]:
     return reports
 
 
-def _load_rankings(rankings_path: Path) -> dict[str, list[dict[str, str]]]:
+def _load_rankings(
+    rankings_path: Path,
+    configuration: tuple[str, float, float] | None = None,
+) -> dict[str, list[dict[str, str]]]:
     """Agrupa os rankings CSV pelo identificador da consulta."""
     if not rankings_path.exists():
         raise FileNotFoundError(
@@ -71,7 +89,9 @@ def _load_rankings(rankings_path: Path) -> dict[str, list[dict[str, str]]]:
 
     rankings_by_query = {}
     with rankings_path.open(encoding="utf-8") as file:
-        for row in csv.DictReader(file):
+        for row in csv.DictReader(file, delimiter=CSV_DELIMITER):
+            if configuration is not None and not _matches_configuration(row, configuration):
+                continue
             rankings_by_query.setdefault(row["query_id"], []).append(row)
 
     for ranking in rankings_by_query.values():
@@ -95,10 +115,20 @@ def _display_ranking(model_name: str, ranking: list[dict[str, str]]) -> None:
 def analyze_saved_results(results_directory: Path = RESULTS_DIRECTORY) -> None:
     """Seleciona e exibe casos comparativos sem recalcular nenhum modelo."""
     vector_directory = results_directory / "vector"
-    bm25_directory = results_directory / "bm25" / "preprocessing"
+    bm25_directory = results_directory / "bm25" / "parameter_grid"
     vector_reports = _load_reports(vector_directory)
-    bm25_reports = _load_reports(bm25_directory)
-    preprocessing_name = select_best_preprocessing(bm25_reports)
+    with (bm25_directory / "summary.csv").open(encoding="utf-8") as file:
+        configurations = list(csv.DictReader(file, delimiter=CSV_DELIMITER))
+    if not configurations:
+        raise ValueError("A grade BM25 não possui resultados. Execute: python generate_results.py")
+    best_configuration = max(configurations, key=lambda row: float(row["map"]))
+    preprocessing_name = best_configuration["preprocessing"]
+    k1 = float(best_configuration["k1"])
+    b = float(best_configuration["b"])
+    configuration = (preprocessing_name, k1, b)
+    bm25_report = _load_report(
+        bm25_directory / "per_query_metrics.csv", configuration
+    )
 
     if preprocessing_name not in vector_reports:
         raise ValueError(
@@ -108,13 +138,13 @@ def analyze_saved_results(results_directory: Path = RESULTS_DIRECTORY) -> None:
 
     candidates_by_group = select_comparison_candidates(
         vector_reports[preprocessing_name],
-        bm25_reports[preprocessing_name],
+        bm25_report,
     )
     vector_rankings = _load_rankings(
         vector_directory / f"{preprocessing_name}_rankings.csv"
     )
     bm25_rankings = _load_rankings(
-        bm25_directory / f"{preprocessing_name}_rankings.csv"
+        bm25_directory / "rankings.csv", configuration
     )
     group_titles = {
         "bm25_superior": "BM25 superior ao Modelo Vetorial",
@@ -125,7 +155,8 @@ def analyze_saved_results(results_directory: Path = RESULTS_DIRECTORY) -> None:
     print("=" * 70)
     print("ANÁLISE COMPARATIVA POR CONSULTA")
     print("=" * 70)
-    print(f"Pré-processamento comum: {preprocessing_name}\n")
+    print(f"Pré-processamento comum: {preprocessing_name}")
+    print(f"BM25 selecionado por MAP na grade: k1={k1}, b={b}\n")
 
     for group_name, candidates in candidates_by_group.items():
         print(group_titles[group_name])

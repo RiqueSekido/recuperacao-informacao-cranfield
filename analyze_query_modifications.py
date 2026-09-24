@@ -3,7 +3,7 @@
 import csv
 from pathlib import Path
 
-from reporting.results_export import RESULTS_DIRECTORY
+from reporting.results_export import CSV_DELIMITER, RESULTS_DIRECTORY
 
 
 def main() -> None:
@@ -15,7 +15,7 @@ def main() -> None:
 
     grouped_rows = {}
     with path.open(encoding="utf-8") as file:
-        for row in csv.DictReader(file):
+        for row in csv.DictReader(file, delimiter=CSV_DELIMITER):
             grouped_rows.setdefault(row["query_id"], []).append(row)
 
     print("=" * 70)
